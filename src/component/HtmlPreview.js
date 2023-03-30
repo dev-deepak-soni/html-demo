@@ -7,7 +7,7 @@ import Preview from './Preview';
 
 function HtmlPreview() {
 
-  const [html, setHtml] = useState('<h1>Hello World!</h1><p>This is a paragraph.</p>');
+//   const [html, setHtml] = useState('<h1>Hello World!</h1><p>This is a paragraph.</p>');
   const [companyName, setComapnyName] = useState('Company Name');
   const [headerBgcolor, setHeaderBgcolor] = useState('#1f618d');
   const [headerTextcolor, setHeaderTextcolor] = useState('#000000');
