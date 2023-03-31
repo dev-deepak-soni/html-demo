@@ -1,10 +1,10 @@
 import React from 'react'
+import parse from 'html-react-parser';
 
 const Preview = ({srcDoc}) => {
-    console.log('srcdoc',srcDoc);
-  return (
+  return (!srcDoc) ? 'Loading...' :(
     <div>
-        <iframe srcDoc={srcDoc} width="1200" title='Html-demo' height="600"/>
+        {parse(`${srcDoc}`)}
     </div>
   )
 }
